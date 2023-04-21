@@ -20,3 +20,6 @@ def test_database(database):
     print("Test passed: Number of users in database is 3")
 if __name__ == '__main__':
     pytest.main([__file__])
+
+
+# pytest .\test_integrité.py  

@@ -15,3 +15,4 @@ end_time = time.time()
 total_time = end_time - start_time
 print(f"Total time taken: {total_time:.2f} seconds")
 
+#python .\test_charge_request.py
