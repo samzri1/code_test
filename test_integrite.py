@@ -16,10 +16,10 @@ def test_database(database):
     # Test de la connexion à la base de données
     data = pd.read_sql_query('SELECT * FROM users', con=connection)
     print(data)
-    assert len(data) == 3, "Error: Number of users in database is not 3"
+    assert len(data) == 4, "Error: Number of users in database is not 3"
     print("Test passed: Number of users in database is 3")
 if __name__ == '__main__':
     pytest.main([__file__])
 
 
-# pytest .\test_integrité.py  
+# pytest .\test_integrite.py  

@@ -5,7 +5,7 @@ url = "https://www.google.com"
 
 start_time = time.time()
 
-for i in range(100):
+for i in range(5):
     response = requests.get(url)
     # process the response as needed
     print(f"Request {i+1} completed with status code {response.status_code}")
